@@ -3,7 +3,11 @@ new_page_extension: md
 auto_deploy: false
 admin_path: 
 webhook_url: 
-sections: 
+sections:
+- type: document
+  path: content/data/home/home.json
+  label: HomePage
+  match: "**/*"
 upload_dir: src/images
 public_path: "/static"
 front_matter_path: ''
