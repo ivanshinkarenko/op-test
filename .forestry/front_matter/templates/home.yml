@@ -5,9 +5,6 @@ fields:
 - type: text
   name: title
   label: title
-- type: text
-  name: content
-  label: content
 - type: field_group
   name: section-1
   label: section-1
