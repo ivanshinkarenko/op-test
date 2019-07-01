@@ -1,0 +1,44 @@
+.faqAnchors {
+  width: 180px;
+  min-width: 180px;
+  aside {
+    width: 100%;
+    padding-top: 32px;
+    background-color: #fff;
+    border-right: 1px solid #ede7f3;
+    height: 100vh;
+    overflow: auto;
+    position: fixed;
+    padding-left: 24px;
+    position: sticky;
+    top: 0;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    border-left: 1px solid #ede7f3;
+  }
+  li {
+    font-size: 12px;
+    list-style-type: none;
+    padding: 7px 24px 7px 16px;
+    a {
+      text-decoration: none;
+      color: #697386;
+      transition: color 0.2s ease;
+      &:hover {
+        color: #000;
+      }
+    }
+  }
+}
+.faqAnchorsTitle {
+  font-size: 10px;
+  line-height: 1;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  padding: 7px 24px 7px 16px;
+  border-left: 1px solid #e6ecf1;
+  color: #9daab6;
+}

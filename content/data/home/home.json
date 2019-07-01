@@ -1,0 +1,18 @@
+{
+  "title": "The new home for your money",
+  "content": "index.md",
+  "section-1": {
+    "title": "The new home for your money",
+    "image": "bench.jpg",
+    "descr": "Dozens puts you in control of your money every day. While also helping you plan for tomorrow and the future."
+  },
+  "section-2": {
+    "title": "The new home for your money",
+    "image": "usb.jpg",
+    "descr-one": "A Pocket PC is a handheld computer, which features many of the same capabilities as a modern PC. These handy little devices allow individuals to retrieve and store e-mail messages, create a contact file, coordinate Every product that is labeled as a Pocket PC must be accompanied with specific software to operate the unit and must feature a touchscreen and touchpad. Pocket PC products are created",
+    "descr-two": " substantial during it’s early release. For approximately $700.00, consumers could purchase one of top-of-the-line Pocket PCs in 2003. These days, customers are finding that prices have become much more reasonable now that the newness is wearing off. For approximately $350.00, a new Pocket PC can now be purchased. Even years after their release, Pocket PCs are a staple in the world of travelers, college students and business leaders."
+  },
+  "section-3": {
+    "imageSet": [{ "image": "unsplash.jpg" }, { "image": "unsplash.jpg" }, { "image": "unsplash.jpg" }, { "image": "unsplash.jpg" }]
+  }
+}

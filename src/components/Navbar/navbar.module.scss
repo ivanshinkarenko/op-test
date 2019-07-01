@@ -1,0 +1,87 @@
+@import "./../../styles/variables";
+
+.menuContainer {
+  position: relative;
+}
+
+.mainNav {
+  display: flex;
+  li {
+    list-style-type: none;
+    &:not(:last-child) {
+      margin-right: 43px;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+    &:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -10px;
+      width: 0%;
+      height: 2px;
+      background-color: $accentColor;
+      transition: all 0.2s ease;
+    }
+    &:hover {
+      &:after {
+        width: 100%;
+      }
+    }
+    &.mainNavActive {
+      &:after {
+        width: 100%;
+      }
+    }
+  }
+}
+
+nav {
+  display: flex;
+  &.is-active {
+    transform: none;
+    opacity: 1;
+    pointer-events: auto;
+  }
+  @media (max-width: 767px) {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    width: 250px;
+    background-color: #fff;
+    border-radius: 3px;
+    perspective: 2000px;
+    box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.25), 0 30px 60px -30px rgba(0, 0, 0, 0.3), 0 -18px 60px -10px rgba(0, 0, 0, 0.025);
+    transform: scale(0.95);
+    transform-origin: 100% 0;
+    opacity: 0;
+    will-change: transform, opacity;
+    transition-property: transform, opacity;
+    transition-duration: 0.25s;
+    .mainNav {
+      flex-direction: column;
+      width: 100%;
+      a {
+        display: block;
+      }
+      li {
+        margin: 20px 0 20px 15px;
+      }
+    }
+  }
+}
+
+.toogleMenu {
+  display: none;
+  @media (max-width: 767px) {
+    display: block;
+    position: relative;
+    z-index: 11;
+  }
+}

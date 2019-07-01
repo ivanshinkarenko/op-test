@@ -1,0 +1,39 @@
+ul {
+  margin: 0;
+  li {
+    margin: 0;
+  }
+}
+
+img {
+  margin-bottom: 0;
+}
+
+.mainContainer {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.faqWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.faqContent {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  margin: 0px 10px 0 70px;
+  margin-top: 3rem;
+  font-size: 16px;
+}
