@@ -50,3 +50,4 @@ fields:
   config:
     maxSize: 250
   label: test-image
+  default: "/static/gatsby-astronaut.png"
