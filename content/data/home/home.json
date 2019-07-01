@@ -15,5 +15,5 @@
   "section-3": {
     "imageSet": [{ "image": "unsplash.jpg" }, { "image": "unsplash.jpg" }, { "image": "unsplash.jpg" }, { "image": "unsplash.jpg" }]
   },
-  "test-image": ""
+  "test-image": "/static/gatsby-astronaut.png"
 }
