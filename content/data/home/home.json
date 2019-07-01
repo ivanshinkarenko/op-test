@@ -14,5 +14,6 @@
   },
   "section-3": {
     "imageSet": [{ "image": "unsplash.jpg" }, { "image": "unsplash.jpg" }, { "image": "unsplash.jpg" }, { "image": "unsplash.jpg" }]
-  }
+  },
+  "test-image": ""
 }
