@@ -7,7 +7,6 @@ sections:
 - type: document
   path: content/data/home/home.json
   label: HomePage
-  match: "**/*"
 upload_dir: src/images
 public_path: "/static"
 front_matter_path: ''
