@@ -45,3 +45,8 @@ fields:
     - type: file
       name: image
       label: image
+- name: test-image
+  type: file
+  config:
+    maxSize: 250
+  label: test-image
