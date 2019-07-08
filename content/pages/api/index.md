@@ -3,7 +3,6 @@ path: "/api"
 date: "2018-05-01"
 title: "Introduction"
 tags: ["introduction"]
-id: 1
 ---
 
 # Header 1
