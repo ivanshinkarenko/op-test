@@ -10,15 +10,8 @@ public_folder: uploads
 collections:
   - name: api
     label: api
-    folder: "content/pages/api"
+    folder: "content/pages/api//{{slug}}"
     fields:
       - { label: "Path", name: "path", widget: "hidden", default: "" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Title", name: "title", widget: "string" }
-      - {
-          label: "Tags",
-          name: "tags",
-          widget: "list",
-          allow_add: false,
-          default: ["api"],
-        }
